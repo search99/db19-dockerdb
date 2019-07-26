@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]; then
 	echo "Usage:"
-	echo "    ./stopdb.sh neo4j|postgres|couchdb|redis|all"
+	echo "    ./stopdb.sh neo4j | postgres | couchdb | redis | all"
 
 elif [ "$1" == "all" ]; then
     for i in $(ls -d */)
