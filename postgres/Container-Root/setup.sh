@@ -9,8 +9,8 @@ apt update -yqq
 apt install python3 -yqq
 apt install python3-pip -yqq
 apt install postgresql-server-dev-11 -yqq
-apt install python3-six
-pip3 install pgcli
+apt install python3-six sqlite3 -yqq
+pip3 install pgcli litecli
 
 apt remove python3-pip postgresql-server-dev-11 -yqq
 apt autoremove -yqq
